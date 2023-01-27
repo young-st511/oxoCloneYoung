@@ -6,10 +6,8 @@ const StyledImg = styled.img`
   border-radius: 0;
 `;
 
-function CreateImg({ src }) {
-  const imgsrc = `/src/components/Header/img/${src}.svg`;
-
-  return <StyledImg src={imgsrc} alt={`${src}`} />;
+function CreateImg({ src, alt }) {
+  return <StyledImg src={src} alt={alt} />;
 }
 
 export default CreateImg;

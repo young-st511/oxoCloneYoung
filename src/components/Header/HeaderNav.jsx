@@ -115,9 +115,6 @@ function HeaderNav({ active, activeChange }) {
         <li className='IconChat'>
           <IconChat color={'#e6e6e6'} /> <span>톡</span>
         </li>
-        {/* <li className='notice'>
-          <CreateImg src={'IconNotification'} /> <span>알림</span>
-        </li> */}
       </ul>
     </Nav>
   );

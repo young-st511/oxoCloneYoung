@@ -1,11 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
-import CreateImg from './CreateImg';
+import React from "react";
+import styled from "styled-components";
+import IconSearch from "/src/components/Header/img/IconSearch.svg";
+import CreateImg from "./CreateImg";
 
 function HeaderSearch() {
   return (
     <HeaderRightContainer>
-      <CreateImg src={'IconSearch'} />
+      <CreateImg src={IconSearch} alt="IconSearch" />
       <LoginButton>로그인</LoginButton>
     </HeaderRightContainer>
   );
